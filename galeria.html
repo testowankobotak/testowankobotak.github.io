@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Golec uOrkiestra</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+    <link href="fontello-638a936f/css/fontello.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="nav-mobile">
+        <a href="index.html" class="nav-mobile-left">Golec uOrkiestra</a>
+        <div class="nav-mobile-right">Rozwiń</div>
+    </div>
+    <div class="nav-mobile-items">
+        <a href="muzyka.html" class="nav-mobile-items-item">Muzyka</a>
+        <a href="onas.html" class="nav-mobile-items-item">O nas</a>
+        <a href="galeria.html" class="nav-mobile-items-item">Galeria</a>
+        <a href="kontakt.html" class="nav-mobile-items-item">Kontakt</a>
+    </div>
+    
+    <div class="nav">
+        <div class="nav-center">
+            <a href="index.html" class="nav-logo">Golec uOrkiestra</a>
+            <div class="nav-items">
+                <a href="muzyka.html" class="nav-items-item">Muzyka</a>
+                <a href="onas.html" class="nav-items-item">O nas</a>
+                <a href="galeria.html" class="nav-items-item" style="border-bottom: 2px solid #1a73e8;">Galeria</a>
+                <a href="kontakt.html" class="nav-items-item">Kontakt</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section-white-galery">
+        <div class="section4-center">
+            <div class="section4-center-selector">
+                <div class="images-galery"><img src="img/img1.jpg"></div>
+                <div class="images-galery"><img src="img/img2.jpg"></div>
+                <div class="images-galery"><img src="img/img3.jpg"></div>
+            </div>
+            
+            <div class="section4-center-selector">
+                <div class="images-galery"><img src="img/img4.jpg"></div>
+                <div class="images-galery"><img src="img/img5.jpg"></div>
+                <div class="images-galery"><img src="img/img6.jpg"></div>
+            </div>
+            
+            <div class="section4-center-selector">
+                <div class="images-galery"><img src="img/img7.jpg"></div>
+                <div class="images-galery"><img src="img/img8.jpg"></div>
+                <div class="images-galery"><img src="img/img9.jpg"></div>
+            </div>
+        </div>
+        
+
+    </div>
+    
+    
+    
+    <div class="socials">
+        Bądź na bieżąco: 
+        <div class="socials-item"><i class="icon-youtube-play"></i></div>
+        <div class="socials-item"><i class="icon-facebook-rect"></i></div>
+        <div class="socials-item"><i class="icon-twitter-bird"></i></div>
+        <div class="socials-item"><i class="icon-instagram-filled"></i></div>
+    </div>
+    
+    
+    
+    
+    <script>
+        
+        document.getElementsByClassName("nav-mobile-right")[0].addEventListener("click", nav);
+        
+        function nav() {
+            var x = document.getElementsByClassName("nav-mobile-items")[0];
+            
+            if (x.style.display === "flex") {
+                x.style.display = "none";
+            }
+            else {
+                x.style.display = "flex";
+            }
+        }
+    
+    
+    </script>
+</body>
+</html>

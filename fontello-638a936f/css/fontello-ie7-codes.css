@@ -1,0 +1,9 @@
+
+.icon-note-beamed { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe800;&nbsp;'); }
+.icon-note { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe801;&nbsp;'); }
+.icon-phone { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe802;&nbsp;'); }
+.icon-mail-alt { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0e0;&nbsp;'); }
+.icon-youtube-play { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf16a;&nbsp;'); }
+.icon-facebook-rect { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf301;&nbsp;'); }
+.icon-twitter-bird { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf303;&nbsp;'); }
+.icon-instagram-filled { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf31f;&nbsp;'); }
